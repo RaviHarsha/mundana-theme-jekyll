@@ -53,13 +53,12 @@ defaults:
       layout: page
       
 # Syntax
-<!--- markdown: kramdown -->
-markdown: CommonMarkGhPages
+markdown: kramdown
 highlighter: rouge
 
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+# commonmark:
+#  options: ["SMART", "FOOTNOTES"]
+#  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
   
 # Paginate
 paginate: 10
