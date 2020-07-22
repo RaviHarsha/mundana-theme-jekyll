@@ -57,6 +57,10 @@ defaults:
 markdown: CommonMarkGhPages
 highlighter: rouge
 
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+  
 # Paginate
 paginate: 10
 
