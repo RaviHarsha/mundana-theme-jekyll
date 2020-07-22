@@ -53,7 +53,8 @@ defaults:
       layout: page
       
 # Syntax
-markdown: kramdown
+<!--- markdown: kramdown -->
+markdown: CommonMarkGhPages
 highlighter: rouge
 
 # Paginate
